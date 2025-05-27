@@ -12,8 +12,8 @@
           "Microsoft.EntityFrameworkCore.Design": "9.0.5",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.5",
           "Microsoft.Extensions.Caching.SqlServer": "9.0.5",
-          "Template.Application": "1.0.0",
-          "Template.Domain": "1.0.0"
+          "Template.Domain": "1.0.0",
+          "Template.Shared": "1.0.0"
         },
         "runtime": {
           "Template.Infraestructure.dll": {}
@@ -1050,26 +1050,22 @@
           }
         }
       },
-      "Template.Application/1.0.0": {
+      "Template.Domain/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.5",
           "Microsoft.Extensions.Caching.SqlServer": "9.0.5",
-          "Template.Domain": "1.0.0"
+          "Template.Shared": "1.0.0"
         },
         "runtime": {
-          "Template.Application.dll": {
+          "Template.Domain.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
       },
-      "Template.Domain/1.0.0": {
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore.SqlServer": "9.0.5",
-          "Microsoft.Extensions.Caching.SqlServer": "9.0.5"
-        },
+      "Template.Shared/1.0.0": {
         "runtime": {
-          "Template.Domain.dll": {
+          "Template.Shared.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -1636,12 +1632,12 @@
       "path": "system.windows.extensions/6.0.0",
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
     },
-    "Template.Application/1.0.0": {
+    "Template.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Template.Domain/1.0.0": {
+    "Template.Shared/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

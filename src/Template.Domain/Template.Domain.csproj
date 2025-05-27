@@ -8,7 +8,6 @@
 
   <ItemGroup>
     <Folder Include="Enum\" />
-    <Folder Include="Interfaces\" />
     <Folder Include="ValueObjects\" />
   </ItemGroup>
 
@@ -19,6 +18,10 @@
     </PackageReference>
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.5" />
     <PackageReference Include="Microsoft.Extensions.Caching.SqlServer" Version="9.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Template.Shared\Template.Shared.csproj" />
   </ItemGroup>
 
 </Project>

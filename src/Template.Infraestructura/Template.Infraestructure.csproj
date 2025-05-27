@@ -10,7 +10,6 @@
     <Folder Include="AppClients\" />
     <Folder Include="Migrations\" />
     <Folder Include="Helpers\" />
-    <Folder Include="Repositores\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -24,7 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Template.Application\Template.Application.csproj" />
+    <ProjectReference Include="..\..\Template.Shared\Template.Shared.csproj" />
     <ProjectReference Include="..\Template.Domain\Template.Domain.csproj" />
   </ItemGroup>
 

@@ -14,7 +14,8 @@
           "Swashbuckle.AspNetCore": "6.6.2",
           "Template.Application": "1.0.0",
           "Template.Domain": "1.0.0",
-          "Template.Infraestructure": "1.0.0"
+          "Template.Infraestructure": "1.0.0",
+          "Template.Shared": "1.0.0"
         },
         "runtime": {
           "Template.Api.dll": {}
@@ -1102,7 +1103,9 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.5",
           "Microsoft.Extensions.Caching.SqlServer": "9.0.5",
-          "Template.Domain": "1.0.0"
+          "Template.Domain": "1.0.0",
+          "Template.Infraestructure": "1.0.0",
+          "Template.Shared": "1.0.0"
         },
         "runtime": {
           "Template.Application.dll": {
@@ -1114,7 +1117,8 @@
       "Template.Domain/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.5",
-          "Microsoft.Extensions.Caching.SqlServer": "9.0.5"
+          "Microsoft.Extensions.Caching.SqlServer": "9.0.5",
+          "Template.Shared": "1.0.0"
         },
         "runtime": {
           "Template.Domain.dll": {
@@ -1128,11 +1132,19 @@
           "Microsoft.EntityFrameworkCore": "9.0.5",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.5",
           "Microsoft.Extensions.Caching.SqlServer": "9.0.5",
-          "Template.Application": "1.0.0",
-          "Template.Domain": "1.0.0"
+          "Template.Domain": "1.0.0",
+          "Template.Shared": "1.0.0"
         },
         "runtime": {
           "Template.Infraestructure.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Template.Shared/1.0.0": {
+        "runtime": {
+          "Template.Shared.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -1752,6 +1764,11 @@
       "sha512": ""
     },
     "Template.Infraestructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Template.Shared/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

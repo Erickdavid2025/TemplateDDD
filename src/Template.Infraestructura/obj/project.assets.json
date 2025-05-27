@@ -1615,33 +1615,29 @@
           }
         }
       },
-      "Template.Application/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore.SqlServer": "9.0.5",
-          "Microsoft.Extensions.Caching.SqlServer": "9.0.5",
-          "Template.Domain": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Template.Application.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Template.Application.dll": {}
-        }
-      },
       "Template.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.5",
-          "Microsoft.Extensions.Caching.SqlServer": "9.0.5"
+          "Microsoft.Extensions.Caching.SqlServer": "9.0.5",
+          "Template.Shared": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Template.Domain.dll": {}
         },
         "runtime": {
           "bin/placeholder/Template.Domain.dll": {}
+        }
+      },
+      "Template.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Template.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Template.Shared.dll": {}
         }
       }
     }
@@ -4749,15 +4745,15 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Template.Application/1.0.0": {
-      "type": "project",
-      "path": "../Template.Application/Template.Application.csproj",
-      "msbuildProject": "../Template.Application/Template.Application.csproj"
-    },
     "Template.Domain/1.0.0": {
       "type": "project",
       "path": "../Template.Domain/Template.Domain.csproj",
       "msbuildProject": "../Template.Domain/Template.Domain.csproj"
+    },
+    "Template.Shared/1.0.0": {
+      "type": "project",
+      "path": "../../Template.Shared/Template.Shared.csproj",
+      "msbuildProject": "../../Template.Shared/Template.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -4766,8 +4762,8 @@
       "Microsoft.EntityFrameworkCore.Design >= 9.0.5",
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.5",
       "Microsoft.Extensions.Caching.SqlServer >= 9.0.5",
-      "Template.Application >= 1.0.0",
-      "Template.Domain >= 1.0.0"
+      "Template.Domain >= 1.0.0",
+      "Template.Shared >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -4802,11 +4798,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Erick Soto\\Documents\\TI\\Arquitectura\\DDD\\Desafrio.EntityFrameWork\\TemplateDDD\\src\\Template.Application\\Template.Application.csproj": {
-              "projectPath": "C:\\Users\\Erick Soto\\Documents\\TI\\Arquitectura\\DDD\\Desafrio.EntityFrameWork\\TemplateDDD\\src\\Template.Application\\Template.Application.csproj"
-            },
             "C:\\Users\\Erick Soto\\Documents\\TI\\Arquitectura\\DDD\\Desafrio.EntityFrameWork\\TemplateDDD\\src\\Template.Domain\\Template.Domain.csproj": {
               "projectPath": "C:\\Users\\Erick Soto\\Documents\\TI\\Arquitectura\\DDD\\Desafrio.EntityFrameWork\\TemplateDDD\\src\\Template.Domain\\Template.Domain.csproj"
+            },
+            "C:\\Users\\Erick Soto\\Documents\\TI\\Arquitectura\\DDD\\Desafrio.EntityFrameWork\\TemplateDDD\\Template.Shared\\Template.Shared.csproj": {
+              "projectPath": "C:\\Users\\Erick Soto\\Documents\\TI\\Arquitectura\\DDD\\Desafrio.EntityFrameWork\\TemplateDDD\\Template.Shared\\Template.Shared.csproj"
             }
           }
         }

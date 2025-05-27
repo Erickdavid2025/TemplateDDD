@@ -1,7 +1,80 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Erick Soto\\Documents\\TI\\Arquitectura\\DDD\\Desafrio.EntityFrameWork\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\Erick Soto\\Documents\\TI\\Arquitectura\\DDD\\Desafrio.EntityFrameWork\\TemplateDDD\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6DC6426B-83EF-5A9E-94A2-DFEF4F3AF7E1}|src\\Template.Infraestructura\\Template.Infraestructure.csproj|c:\\users\\erick soto\\documents\\ti\\arquitectura\\ddd\\desafrio.entityframework\\templateddd\\src\\template.infraestructura\\repositores\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DC6426B-83EF-5A9E-94A2-DFEF4F3AF7E1}|src\\Template.Infraestructura\\Template.Infraestructure.csproj|solutionrelative:src\\template.infraestructura\\repositores\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43EF0FB5-5AF0-1CC5-FB6A-E254BD067E38}|src\\Template.Application\\Template.Application.csproj|c:\\users\\erick soto\\documents\\ti\\arquitectura\\ddd\\desafrio.entityframework\\templateddd\\src\\template.application\\services\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43EF0FB5-5AF0-1CC5-FB6A-E254BD067E38}|src\\Template.Application\\Template.Application.csproj|solutionrelative:src\\template.application\\services\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CBBA0D2-0D4E-0855-DB99-FBC85D1BBDE5}|src\\Template.Domain\\Template.Domain.csproj|c:\\users\\erick soto\\documents\\ti\\arquitectura\\ddd\\desafrio.entityframework\\templateddd\\src\\template.domain\\interfaces\\iclienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CBBA0D2-0D4E-0855-DB99-FBC85D1BBDE5}|src\\Template.Domain\\Template.Domain.csproj|solutionrelative:src\\template.domain\\interfaces\\iclienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DC6426B-83EF-5A9E-94A2-DFEF4F3AF7E1}|src\\Template.Infraestructura\\Template.Infraestructure.csproj|c:\\users\\erick soto\\documents\\ti\\arquitectura\\ddd\\desafrio.entityframework\\templateddd\\src\\template.infraestructura\\orm_context\\conexsqlcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DC6426B-83EF-5A9E-94A2-DFEF4F3AF7E1}|src\\Template.Infraestructura\\Template.Infraestructure.csproj|solutionrelative:src\\template.infraestructura\\orm_context\\conexsqlcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB8A0161-BC51-FFEB-A4BF-A2F05A229E68}|src\\Template.Api\\Template.Api.csproj|c:\\users\\erick soto\\documents\\ti\\arquitectura\\ddd\\desafrio.entityframework\\templateddd\\src\\template.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB8A0161-BC51-FFEB-A4BF-A2F05A229E68}|src\\Template.Api\\Template.Api.csproj|solutionrelative:src\\template.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB8A0161-BC51-FFEB-A4BF-A2F05A229E68}|src\\Template.Api\\Template.Api.csproj|c:\\users\\erick soto\\documents\\ti\\arquitectura\\ddd\\desafrio.entityframework\\templateddd\\src\\template.api\\controllers\\resumenclientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB8A0161-BC51-FFEB-A4BF-A2F05A229E68}|src\\Template.Api\\Template.Api.csproj|solutionrelative:src\\template.api\\controllers\\resumenclientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB8A0161-BC51-FFEB-A4BF-A2F05A229E68}|src\\Template.Api\\Template.Api.csproj|c:\\users\\erick soto\\documents\\ti\\arquitectura\\ddd\\desafrio.entityframework\\templateddd\\src\\template.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FB8A0161-BC51-FFEB-A4BF-A2F05A229E68}|src\\Template.Api\\Template.Api.csproj|solutionrelative:src\\template.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DC6426B-83EF-5A9E-94A2-DFEF4F3AF7E1}|src\\Template.Infraestructura\\Template.Infraestructure.csproj|c:\\users\\erick soto\\documents\\ti\\arquitectura\\ddd\\desafrio.entityframework\\templateddd\\src\\template.infraestructura\\entityconfig\\clienteentityconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DC6426B-83EF-5A9E-94A2-DFEF4F3AF7E1}|src\\Template.Infraestructura\\Template.Infraestructure.csproj|solutionrelative:src\\template.infraestructura\\entityconfig\\clienteentityconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DC6426B-83EF-5A9E-94A2-DFEF4F3AF7E1}|src\\Template.Infraestructura\\Template.Infraestructure.csproj|c:\\users\\erick soto\\documents\\ti\\arquitectura\\ddd\\desafrio.entityframework\\templateddd\\src\\template.infraestructura\\entityconfig\\cuentaentityconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DC6426B-83EF-5A9E-94A2-DFEF4F3AF7E1}|src\\Template.Infraestructura\\Template.Infraestructure.csproj|solutionrelative:src\\template.infraestructura\\entityconfig\\cuentaentityconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DC6426B-83EF-5A9E-94A2-DFEF4F3AF7E1}|src\\Template.Infraestructura\\Template.Infraestructure.csproj|c:\\users\\erick soto\\documents\\ti\\arquitectura\\ddd\\desafrio.entityframework\\templateddd\\src\\template.infraestructura\\entityconfig\\tarjetaentityconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DC6426B-83EF-5A9E-94A2-DFEF4F3AF7E1}|src\\Template.Infraestructura\\Template.Infraestructure.csproj|solutionrelative:src\\template.infraestructura\\entityconfig\\tarjetaentityconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DC6426B-83EF-5A9E-94A2-DFEF4F3AF7E1}|src\\Template.Infraestructura\\Template.Infraestructure.csproj|c:\\users\\erick soto\\documents\\ti\\arquitectura\\ddd\\desafrio.entityframework\\templateddd\\src\\template.infraestructura\\entityconfig\\movimientoentityconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DC6426B-83EF-5A9E-94A2-DFEF4F3AF7E1}|src\\Template.Infraestructura\\Template.Infraestructure.csproj|solutionrelative:src\\template.infraestructura\\entityconfig\\movimientoentityconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DC6426B-83EF-5A9E-94A2-DFEF4F3AF7E1}|src\\Template.Infraestructura\\Template.Infraestructure.csproj|c:\\users\\erick soto\\documents\\ti\\arquitectura\\ddd\\desafrio.entityframework\\templateddd\\src\\template.infraestructura\\orm_context\\iconexsqlcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DC6426B-83EF-5A9E-94A2-DFEF4F3AF7E1}|src\\Template.Infraestructura\\Template.Infraestructure.csproj|solutionrelative:src\\template.infraestructura\\orm_context\\iconexsqlcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB8A0161-BC51-FFEB-A4BF-A2F05A229E68}|src\\Template.Api\\Template.Api.csproj|c:\\users\\erick soto\\documents\\ti\\arquitectura\\ddd\\desafrio.entityframework\\templateddd\\src\\template.api\\controllers\\databasehealthcheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB8A0161-BC51-FFEB-A4BF-A2F05A229E68}|src\\Template.Api\\Template.Api.csproj|solutionrelative:src\\template.api\\controllers\\databasehealthcheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CBBA0D2-0D4E-0855-DB99-FBC85D1BBDE5}|src\\Template.Domain\\Template.Domain.csproj|c:\\users\\erick soto\\documents\\ti\\arquitectura\\ddd\\desafrio.entityframework\\templateddd\\src\\template.domain\\entities\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CBBA0D2-0D4E-0855-DB99-FBC85D1BBDE5}|src\\Template.Domain\\Template.Domain.csproj|solutionrelative:src\\template.domain\\entities\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{186A0EDD-38E1-4344-B25E-6C5C7D6451A8}|Template.Shared\\Template.Shared.csproj|c:\\users\\erick soto\\documents\\ti\\arquitectura\\ddd\\desafrio.entityframework\\templateddd\\template.shared\\dtos\\resumencliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{186A0EDD-38E1-4344-B25E-6C5C7D6451A8}|Template.Shared\\Template.Shared.csproj|solutionrelative:template.shared\\dtos\\resumencliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43EF0FB5-5AF0-1CC5-FB6A-E254BD067E38}|src\\Template.Application\\Template.Application.csproj|c:\\users\\erick soto\\documents\\ti\\arquitectura\\ddd\\desafrio.entityframework\\templateddd\\src\\template.application\\interfaces\\icliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43EF0FB5-5AF0-1CC5-FB6A-E254BD067E38}|src\\Template.Application\\Template.Application.csproj|solutionrelative:src\\template.application\\interfaces\\icliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB8A0161-BC51-FFEB-A4BF-A2F05A229E68}|src\\Template.Api\\Template.Api.csproj|c:\\users\\erick soto\\documents\\ti\\arquitectura\\ddd\\desafrio.entityframework\\templateddd\\src\\template.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB8A0161-BC51-FFEB-A4BF-A2F05A229E68}|src\\Template.Api\\Template.Api.csproj|solutionrelative:src\\template.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DC6426B-83EF-5A9E-94A2-DFEF4F3AF7E1}|src\\Template.Infraestructura\\Template.Infraestructure.csproj|c:\\users\\erick soto\\documents\\ti\\arquitectura\\ddd\\desafrio.entityframework\\templateddd\\src\\template.infraestructura\\migrations\\20250523202442_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DC6426B-83EF-5A9E-94A2-DFEF4F3AF7E1}|src\\Template.Infraestructura\\Template.Infraestructure.csproj|solutionrelative:src\\template.infraestructura\\migrations\\20250523202442_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +82,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -24,8 +97,225 @@
               "Name": "ST:12:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{99b8fa2f-ab90-4f57-9c32-949f146f1914}"
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DataBaseHealthCheck.cs",
+              "DocumentMoniker": "C:\\Users\\Erick Soto\\Documents\\TI\\Arquitectura\\DDD\\Desafrio.EntityFrameWork\\TemplateDDD\\src\\Template.Api\\Controllers\\DataBaseHealthCheck.cs",
+              "RelativeDocumentMoniker": "src\\Template.Api\\Controllers\\DataBaseHealthCheck.cs",
+              "ToolTip": "C:\\Users\\Erick Soto\\Documents\\TI\\Arquitectura\\DDD\\Desafrio.EntityFrameWork\\TemplateDDD\\src\\Template.Api\\Controllers\\DataBaseHealthCheck.cs",
+              "RelativeToolTip": "src\\Template.Api\\Controllers\\DataBaseHealthCheck.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T17:03:49.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Erick Soto\\Documents\\TI\\Arquitectura\\DDD\\Desafrio.EntityFrameWork\\TemplateDDD\\src\\Template.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\Template.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\Erick Soto\\Documents\\TI\\Arquitectura\\DDD\\Desafrio.EntityFrameWork\\TemplateDDD\\src\\Template.Api\\appsettings.json",
+              "RelativeToolTip": "src\\Template.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAACVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-26T16:43:47.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Erick Soto\\Documents\\TI\\Arquitectura\\DDD\\Desafrio.EntityFrameWork\\TemplateDDD\\src\\Template.Api\\Program.cs",
+              "RelativeDocumentMoniker": "src\\Template.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\Erick Soto\\Documents\\TI\\Arquitectura\\DDD\\Desafrio.EntityFrameWork\\TemplateDDD\\src\\Template.Api\\Program.cs",
+              "RelativeToolTip": "src\\Template.Api\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAUwDkAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T14:55:47.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClienteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Erick Soto\\Documents\\TI\\Arquitectura\\DDD\\Desafrio.EntityFrameWork\\TemplateDDD\\src\\Template.Infraestructura\\Repositores\\ClienteRepository.cs",
+              "RelativeDocumentMoniker": "src\\Template.Infraestructura\\Repositores\\ClienteRepository.cs",
+              "ToolTip": "C:\\Users\\Erick Soto\\Documents\\TI\\Arquitectura\\DDD\\Desafrio.EntityFrameWork\\TemplateDDD\\src\\Template.Infraestructura\\Repositores\\ClienteRepository.cs",
+              "RelativeToolTip": "src\\Template.Infraestructura\\Repositores\\ClienteRepository.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAswDUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T14:53:50.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ResumenCliente.cs",
+              "DocumentMoniker": "C:\\Users\\Erick Soto\\Documents\\TI\\Arquitectura\\DDD\\Desafrio.EntityFrameWork\\TemplateDDD\\Template.Shared\\DTOs\\ResumenCliente.cs",
+              "RelativeDocumentMoniker": "Template.Shared\\DTOs\\ResumenCliente.cs",
+              "ToolTip": "C:\\Users\\Erick Soto\\Documents\\TI\\Arquitectura\\DDD\\Desafrio.EntityFrameWork\\TemplateDDD\\Template.Shared\\DTOs\\ResumenCliente.cs",
+              "RelativeToolTip": "Template.Shared\\DTOs\\ResumenCliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T14:41:09.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\Erick Soto\\Documents\\TI\\Arquitectura\\DDD\\Desafrio.EntityFrameWork\\TemplateDDD\\src\\Template.Domain\\Entities\\Cliente.cs",
+              "RelativeDocumentMoniker": "src\\Template.Domain\\Entities\\Cliente.cs",
+              "ToolTip": "C:\\Users\\Erick Soto\\Documents\\TI\\Arquitectura\\DDD\\Desafrio.EntityFrameWork\\TemplateDDD\\src\\Template.Domain\\Entities\\Cliente.cs",
+              "RelativeToolTip": "src\\Template.Domain\\Entities\\Cliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T13:17:06.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IClienteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Erick Soto\\Documents\\TI\\Arquitectura\\DDD\\Desafrio.EntityFrameWork\\TemplateDDD\\src\\Template.Domain\\Interfaces\\IClienteRepository.cs",
+              "RelativeDocumentMoniker": "src\\Template.Domain\\Interfaces\\IClienteRepository.cs",
+              "ToolTip": "C:\\Users\\Erick Soto\\Documents\\TI\\Arquitectura\\DDD\\Desafrio.EntityFrameWork\\TemplateDDD\\src\\Template.Domain\\Interfaces\\IClienteRepository.cs",
+              "RelativeToolTip": "src\\Template.Domain\\Interfaces\\IClienteRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T13:15:25.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IConexSQLContext.cs",
+              "DocumentMoniker": "C:\\Users\\Erick Soto\\Documents\\TI\\Arquitectura\\DDD\\Desafrio.EntityFrameWork\\TemplateDDD\\src\\Template.Infraestructura\\ORM_Context\\IConexSQLContext.cs",
+              "RelativeDocumentMoniker": "src\\Template.Infraestructura\\ORM_Context\\IConexSQLContext.cs",
+              "ToolTip": "C:\\Users\\Erick Soto\\Documents\\TI\\Arquitectura\\DDD\\Desafrio.EntityFrameWork\\TemplateDDD\\src\\Template.Infraestructura\\ORM_Context\\IConexSQLContext.cs",
+              "RelativeToolTip": "src\\Template.Infraestructura\\ORM_Context\\IConexSQLContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T03:47:42.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\Erick Soto\\Documents\\TI\\Arquitectura\\DDD\\Desafrio.EntityFrameWork\\TemplateDDD\\src\\Template.Application\\Services\\Cliente.cs",
+              "RelativeDocumentMoniker": "src\\Template.Application\\Services\\Cliente.cs",
+              "ToolTip": "C:\\Users\\Erick Soto\\Documents\\TI\\Arquitectura\\DDD\\Desafrio.EntityFrameWork\\TemplateDDD\\src\\Template.Application\\Services\\Cliente.cs",
+              "RelativeToolTip": "src\\Template.Application\\Services\\Cliente.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAewBcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T03:32:17.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ICliente.cs",
+              "DocumentMoniker": "C:\\Users\\Erick Soto\\Documents\\TI\\Arquitectura\\DDD\\Desafrio.EntityFrameWork\\TemplateDDD\\src\\Template.Application\\Interfaces\\ICliente.cs",
+              "RelativeDocumentMoniker": "src\\Template.Application\\Interfaces\\ICliente.cs",
+              "ToolTip": "C:\\Users\\Erick Soto\\Documents\\TI\\Arquitectura\\DDD\\Desafrio.EntityFrameWork\\TemplateDDD\\src\\Template.Application\\Interfaces\\ICliente.cs",
+              "RelativeToolTip": "src\\Template.Application\\Interfaces\\ICliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T03:26:52.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\Erick Soto\\Documents\\TI\\Arquitectura\\DDD\\Desafrio.EntityFrameWork\\TemplateDDD\\src\\Template.Api\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "src\\Template.Api\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\Erick Soto\\Documents\\TI\\Arquitectura\\DDD\\Desafrio.EntityFrameWork\\TemplateDDD\\src\\Template.Api\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "src\\Template.Api\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T03:05:39.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ResumenClienteController.cs",
+              "DocumentMoniker": "C:\\Users\\Erick Soto\\Documents\\TI\\Arquitectura\\DDD\\Desafrio.EntityFrameWork\\TemplateDDD\\src\\Template.Api\\Controllers\\ResumenClienteController.cs",
+              "RelativeDocumentMoniker": "src\\Template.Api\\Controllers\\ResumenClienteController.cs",
+              "ToolTip": "C:\\Users\\Erick Soto\\Documents\\TI\\Arquitectura\\DDD\\Desafrio.EntityFrameWork\\TemplateDDD\\src\\Template.Api\\Controllers\\ResumenClienteController.cs",
+              "RelativeToolTip": "src\\Template.Api\\Controllers\\ResumenClienteController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAiwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T02:59:09.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20250523202442_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Erick Soto\\Documents\\TI\\Arquitectura\\DDD\\Desafrio.EntityFrameWork\\TemplateDDD\\src\\Template.Infraestructura\\Migrations\\20250523202442_InitialCreate.cs",
+              "RelativeDocumentMoniker": "src\\Template.Infraestructura\\Migrations\\20250523202442_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Erick Soto\\Documents\\TI\\Arquitectura\\DDD\\Desafrio.EntityFrameWork\\TemplateDDD\\src\\Template.Infraestructura\\Migrations\\20250523202442_InitialCreate.cs",
+              "RelativeToolTip": "src\\Template.Infraestructura\\Migrations\\20250523202442_InitialCreate.cs",
+              "ViewState": "AgIAAKMAAAAAAAAAAAAswKYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T20:24:46.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MovimientoEntityConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Erick Soto\\Documents\\TI\\Arquitectura\\DDD\\Desafrio.EntityFrameWork\\TemplateDDD\\src\\Template.Infraestructura\\EntityConfig\\MovimientoEntityConfig.cs",
+              "RelativeDocumentMoniker": "src\\Template.Infraestructura\\EntityConfig\\MovimientoEntityConfig.cs",
+              "ToolTip": "C:\\Users\\Erick Soto\\Documents\\TI\\Arquitectura\\DDD\\Desafrio.EntityFrameWork\\TemplateDDD\\src\\Template.Infraestructura\\EntityConfig\\MovimientoEntityConfig.cs",
+              "RelativeToolTip": "src\\Template.Infraestructura\\EntityConfig\\MovimientoEntityConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T19:53:52.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TarjetaEntityConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Erick Soto\\Documents\\TI\\Arquitectura\\DDD\\Desafrio.EntityFrameWork\\TemplateDDD\\src\\Template.Infraestructura\\EntityConfig\\TarjetaEntityConfig.cs",
+              "RelativeDocumentMoniker": "src\\Template.Infraestructura\\EntityConfig\\TarjetaEntityConfig.cs",
+              "ToolTip": "C:\\Users\\Erick Soto\\Documents\\TI\\Arquitectura\\DDD\\Desafrio.EntityFrameWork\\TemplateDDD\\src\\Template.Infraestructura\\EntityConfig\\TarjetaEntityConfig.cs",
+              "RelativeToolTip": "src\\Template.Infraestructura\\EntityConfig\\TarjetaEntityConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T19:52:05.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ConexSQLContext.cs",
+              "DocumentMoniker": "C:\\Users\\Erick Soto\\Documents\\TI\\Arquitectura\\DDD\\Desafrio.EntityFrameWork\\TemplateDDD\\src\\Template.Infraestructura\\ORM_Context\\ConexSQLContext.cs",
+              "RelativeDocumentMoniker": "src\\Template.Infraestructura\\ORM_Context\\ConexSQLContext.cs",
+              "ToolTip": "C:\\Users\\Erick Soto\\Documents\\TI\\Arquitectura\\DDD\\Desafrio.EntityFrameWork\\TemplateDDD\\src\\Template.Infraestructura\\ORM_Context\\ConexSQLContext.cs",
+              "RelativeToolTip": "src\\Template.Infraestructura\\ORM_Context\\ConexSQLContext.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAiwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T19:37:54.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ClienteEntityConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Erick Soto\\Documents\\TI\\Arquitectura\\DDD\\Desafrio.EntityFrameWork\\TemplateDDD\\src\\Template.Infraestructura\\EntityConfig\\ClienteEntityConfig.cs",
+              "RelativeDocumentMoniker": "src\\Template.Infraestructura\\EntityConfig\\ClienteEntityConfig.cs",
+              "ToolTip": "C:\\Users\\Erick Soto\\Documents\\TI\\Arquitectura\\DDD\\Desafrio.EntityFrameWork\\TemplateDDD\\src\\Template.Infraestructura\\EntityConfig\\ClienteEntityConfig.cs",
+              "RelativeToolTip": "src\\Template.Infraestructura\\EntityConfig\\ClienteEntityConfig.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAiwBkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T19:29:03.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CuentaEntityConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Erick Soto\\Documents\\TI\\Arquitectura\\DDD\\Desafrio.EntityFrameWork\\TemplateDDD\\src\\Template.Infraestructura\\EntityConfig\\CuentaEntityConfig.cs",
+              "RelativeDocumentMoniker": "src\\Template.Infraestructura\\EntityConfig\\CuentaEntityConfig.cs",
+              "ToolTip": "C:\\Users\\Erick Soto\\Documents\\TI\\Arquitectura\\DDD\\Desafrio.EntityFrameWork\\TemplateDDD\\src\\Template.Infraestructura\\EntityConfig\\CuentaEntityConfig.cs",
+              "RelativeToolTip": "src\\Template.Infraestructura\\EntityConfig\\CuentaEntityConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T18:46:20.411Z"
             }
           ]
         }

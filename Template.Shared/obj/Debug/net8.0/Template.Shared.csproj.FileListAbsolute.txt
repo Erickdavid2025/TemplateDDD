@@ -1,0 +1,12 @@
+C:\Users\Erick Soto\Documents\TI\Arquitectura\DDD\Desafrio.EntityFrameWork\TemplateDDD\Template.Shared\bin\Debug\net8.0\Template.Shared.deps.json
+C:\Users\Erick Soto\Documents\TI\Arquitectura\DDD\Desafrio.EntityFrameWork\TemplateDDD\Template.Shared\bin\Debug\net8.0\Template.Shared.dll
+C:\Users\Erick Soto\Documents\TI\Arquitectura\DDD\Desafrio.EntityFrameWork\TemplateDDD\Template.Shared\bin\Debug\net8.0\Template.Shared.pdb
+C:\Users\Erick Soto\Documents\TI\Arquitectura\DDD\Desafrio.EntityFrameWork\TemplateDDD\Template.Shared\obj\Debug\net8.0\Template.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Erick Soto\Documents\TI\Arquitectura\DDD\Desafrio.EntityFrameWork\TemplateDDD\Template.Shared\obj\Debug\net8.0\Template.Shared.AssemblyInfoInputs.cache
+C:\Users\Erick Soto\Documents\TI\Arquitectura\DDD\Desafrio.EntityFrameWork\TemplateDDD\Template.Shared\obj\Debug\net8.0\Template.Shared.AssemblyInfo.cs
+C:\Users\Erick Soto\Documents\TI\Arquitectura\DDD\Desafrio.EntityFrameWork\TemplateDDD\Template.Shared\obj\Debug\net8.0\Template.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Erick Soto\Documents\TI\Arquitectura\DDD\Desafrio.EntityFrameWork\TemplateDDD\Template.Shared\obj\Debug\net8.0\Template.Shared.sourcelink.json
+C:\Users\Erick Soto\Documents\TI\Arquitectura\DDD\Desafrio.EntityFrameWork\TemplateDDD\Template.Shared\obj\Debug\net8.0\Template.Shared.dll
+C:\Users\Erick Soto\Documents\TI\Arquitectura\DDD\Desafrio.EntityFrameWork\TemplateDDD\Template.Shared\obj\Debug\net8.0\refint\Template.Shared.dll
+C:\Users\Erick Soto\Documents\TI\Arquitectura\DDD\Desafrio.EntityFrameWork\TemplateDDD\Template.Shared\obj\Debug\net8.0\Template.Shared.pdb
+C:\Users\Erick Soto\Documents\TI\Arquitectura\DDD\Desafrio.EntityFrameWork\TemplateDDD\Template.Shared\obj\Debug\net8.0\ref\Template.Shared.dll

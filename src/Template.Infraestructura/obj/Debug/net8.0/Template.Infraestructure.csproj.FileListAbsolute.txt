@@ -2,9 +2,7 @@ C:\Users\Erick Soto\Documents\TI\Arquitectura\DDD\Desafrio.EntityFrameWork\Templ
 C:\Users\Erick Soto\Documents\TI\Arquitectura\DDD\Desafrio.EntityFrameWork\TemplateDDD\src\Template.Infraestructura\bin\Debug\net8.0\Template.Infraestructure.runtimeconfig.json
 C:\Users\Erick Soto\Documents\TI\Arquitectura\DDD\Desafrio.EntityFrameWork\TemplateDDD\src\Template.Infraestructura\bin\Debug\net8.0\Template.Infraestructure.dll
 C:\Users\Erick Soto\Documents\TI\Arquitectura\DDD\Desafrio.EntityFrameWork\TemplateDDD\src\Template.Infraestructura\bin\Debug\net8.0\Template.Infraestructure.pdb
-C:\Users\Erick Soto\Documents\TI\Arquitectura\DDD\Desafrio.EntityFrameWork\TemplateDDD\src\Template.Infraestructura\bin\Debug\net8.0\Template.Application.dll
 C:\Users\Erick Soto\Documents\TI\Arquitectura\DDD\Desafrio.EntityFrameWork\TemplateDDD\src\Template.Infraestructura\bin\Debug\net8.0\Template.Domain.dll
-C:\Users\Erick Soto\Documents\TI\Arquitectura\DDD\Desafrio.EntityFrameWork\TemplateDDD\src\Template.Infraestructura\bin\Debug\net8.0\Template.Application.pdb
 C:\Users\Erick Soto\Documents\TI\Arquitectura\DDD\Desafrio.EntityFrameWork\TemplateDDD\src\Template.Infraestructura\bin\Debug\net8.0\Template.Domain.pdb
 C:\Users\Erick Soto\Documents\TI\Arquitectura\DDD\Desafrio.EntityFrameWork\TemplateDDD\src\Template.Infraestructura\obj\Debug\net8.0\Template.Infraestructure.csproj.AssemblyReference.cache
 C:\Users\Erick Soto\Documents\TI\Arquitectura\DDD\Desafrio.EntityFrameWork\TemplateDDD\src\Template.Infraestructura\obj\Debug\net8.0\Template.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
@@ -18,3 +16,5 @@ C:\Users\Erick Soto\Documents\TI\Arquitectura\DDD\Desafrio.EntityFrameWork\Templ
 C:\Users\Erick Soto\Documents\TI\Arquitectura\DDD\Desafrio.EntityFrameWork\TemplateDDD\src\Template.Infraestructura\obj\Debug\net8.0\Template.Infraestructure.pdb
 C:\Users\Erick Soto\Documents\TI\Arquitectura\DDD\Desafrio.EntityFrameWork\TemplateDDD\src\Template.Infraestructura\obj\Debug\net8.0\Template.Infraestructure.genruntimeconfig.cache
 C:\Users\Erick Soto\Documents\TI\Arquitectura\DDD\Desafrio.EntityFrameWork\TemplateDDD\src\Template.Infraestructura\obj\Debug\net8.0\ref\Template.Infraestructure.dll
+C:\Users\Erick Soto\Documents\TI\Arquitectura\DDD\Desafrio.EntityFrameWork\TemplateDDD\src\Template.Infraestructura\bin\Debug\net8.0\Template.Shared.dll
+C:\Users\Erick Soto\Documents\TI\Arquitectura\DDD\Desafrio.EntityFrameWork\TemplateDDD\src\Template.Infraestructura\bin\Debug\net8.0\Template.Shared.pdb

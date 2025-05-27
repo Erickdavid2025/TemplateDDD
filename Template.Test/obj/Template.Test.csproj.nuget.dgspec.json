@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Erick Soto\\Documents\\TI\\Arquitectura\\DDD\\Desafrio.EntityFrameWork\\Template.Test\\Template.Test.csproj": {}
+    "C:\\Users\\Erick Soto\\Documents\\TI\\Arquitectura\\DDD\\Desafrio.EntityFrameWork\\TemplateDDD\\Template.Test\\Template.Test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Erick Soto\\Documents\\TI\\Arquitectura\\DDD\\Desafrio.EntityFrameWork\\Template.Test\\Template.Test.csproj": {
+    "C:\\Users\\Erick Soto\\Documents\\TI\\Arquitectura\\DDD\\Desafrio.EntityFrameWork\\TemplateDDD\\Template.Test\\Template.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Erick Soto\\Documents\\TI\\Arquitectura\\DDD\\Desafrio.EntityFrameWork\\Template.Test\\Template.Test.csproj",
+        "projectUniqueName": "C:\\Users\\Erick Soto\\Documents\\TI\\Arquitectura\\DDD\\Desafrio.EntityFrameWork\\TemplateDDD\\Template.Test\\Template.Test.csproj",
         "projectName": "Template.Test",
-        "projectPath": "C:\\Users\\Erick Soto\\Documents\\TI\\Arquitectura\\DDD\\Desafrio.EntityFrameWork\\Template.Test\\Template.Test.csproj",
+        "projectPath": "C:\\Users\\Erick Soto\\Documents\\TI\\Arquitectura\\DDD\\Desafrio.EntityFrameWork\\TemplateDDD\\Template.Test\\Template.Test.csproj",
         "packagesPath": "C:\\Users\\Erick Soto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Erick Soto\\Documents\\TI\\Arquitectura\\DDD\\Desafrio.EntityFrameWork\\Template.Test\\obj\\",
+        "outputPath": "C:\\Users\\Erick Soto\\Documents\\TI\\Arquitectura\\DDD\\Desafrio.EntityFrameWork\\TemplateDDD\\Template.Test\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,6 +49,22 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.Extensions.Caching.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
