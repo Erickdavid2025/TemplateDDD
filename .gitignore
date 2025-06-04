@@ -1,0 +1,8 @@
+﻿################################################################################
+# Este archivo .gitignore ha sido creado automáticamente por Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/Template.EntityFrameWork/FileContentIndex
+/Template.Shared/obj
+/Template.Test
+/Template.Infraestructura
