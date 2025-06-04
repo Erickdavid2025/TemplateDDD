@@ -1,4 +1,0 @@
-Nomeclaruta para crear Migracion , 
-Importante tener los nuggets de EntityFrameWork SQL y Diseig
-dotnet ef migrations add + " NOMBRE DE LA MIGRACION" + --project "INDICAMOS DONDE ESTA NUESTRO dbCONTEXT + --startup-project + "Proyecto donde esta la conex a bd "
-dotnet ef database update --project Template.Infraestructura --startup-project Template.Api
