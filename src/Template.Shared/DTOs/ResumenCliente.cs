@@ -8,14 +8,22 @@ namespace Template.Shared.DTOs
 {
     public class ResumenCliente
     {
-        public decimal SaldoCuentaPrincipal { get; set; }
-        public List<MovimientoResumen> Movimientos { get; set; }
+        public string Cliente { get; set; }
+        public List<Cuenta> Cuentas { get; set; } = new List<Cuenta>();
     }
 
-    public class MovimientoResumen
+    public class Cuenta
     {
-        public DateTime Fecha { get; set; }
-        public decimal Monto { get; set; }
-        public string Descripcion { get; set; }
+        public int id{ get; set; }
+        public decimal Saldo { get; set; }
+        public List<Tarjeta> Tarjetas { get; set; } = new List<Tarjeta>();
+    }
+
+    public class Tarjeta
+    {
+        public string Numero { get; set; }
+        public decimal Gastos { get; set; }
+        public decimal Ingresos { get; set; }
+        public int CantidadMovimientos { get; set; }
     }
 }

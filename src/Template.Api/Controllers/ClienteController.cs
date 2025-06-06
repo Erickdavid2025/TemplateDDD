@@ -1,4 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using System.Threading.Tasks;
+using Template.Application.Interfaces;
+using Template.Shared.DTOs;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -8,18 +11,22 @@ namespace Template.Api.Controllers
     [ApiController]
     public class ClienteController : ControllerBase
     {
-        // GET: api/<ValuesController>
-        [HttpGet]
-        public IEnumerable<string> Get()
+
+        private readonly ICliente _cliente;
+        public ClienteController(ICliente cliente)
         {
-            return new string[] { "value1", "value2" };
+            _cliente = cliente;
         }
 
         // GET api/<ValuesController>/5
-        [HttpGet("{id}")]
-        public string Get(int id)
+        [HttpGet("{id}/resumen-financiero")]
+        [ProducesResponseType(StatusCodes.Status200OK,Type=typeof(ResumenCliente))]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        ///<summary>Obtenemos el resumen detallado del cliente</summary>
+        ///<responsy code="200">Retorna todo el detalle</responsy>
+        public async Task<ResumenCliente> Get(int id)
         {
-            return "value";
+            return await _cliente.GetResumenCliente(id);
         }
 
         // POST api/<ValuesController>

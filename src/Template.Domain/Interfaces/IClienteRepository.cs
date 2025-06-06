@@ -9,6 +9,6 @@ namespace Template.Domain.Interfaces
 {
     public interface IClienteRepository
     {
-        Task<ResumenCliente> GetResumenCliente(int id);
+       Task<ResumenCliente> GetResumenCliente(int id);
     }
 }
