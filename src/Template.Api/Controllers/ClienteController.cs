@@ -29,6 +29,17 @@ namespace Template.Api.Controllers
             return await _cliente.GetResumenCliente(id);
         }
 
+        // GET api/<ValuesController>/5
+        [HttpGet("{id}/resumen-financiero/Mapper")]
+        [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(ResumenCliente))]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        ///<summary>Obtenemos el resumen detallado del cliente</summary>
+        ///<responsy code="200">Retorna todo el detalle</responsy>
+        public async Task<ResumenCliente> GetMapper(int id)
+        {
+            return await _cliente.GetResumenClienteMapper(id);
+        }
+
         // POST api/<ValuesController>
         [HttpPost]
         public void Post([FromBody]string value)

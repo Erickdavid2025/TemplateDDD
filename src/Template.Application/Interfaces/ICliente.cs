@@ -10,5 +10,6 @@ namespace Template.Application.Interfaces
     public interface ICliente
     {
         Task<ResumenCliente> GetResumenCliente(int id);
+        Task<ResumenCliente> GetResumenClienteMapper(int id);
     }
 }

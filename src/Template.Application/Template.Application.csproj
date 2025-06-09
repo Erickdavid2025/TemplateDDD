@@ -8,11 +8,11 @@
 
   <ItemGroup>
     <Folder Include="DTOs\" />
-    <Folder Include="Queries\" />
     <Folder Include="Validators\" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="14.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.5">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -23,7 +23,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Template.Domain\Template.Domain.csproj" />
-    <ProjectReference Include="..\Template.Infraestructura\Template.Infraestructure.csproj" />
     <ProjectReference Include="..\Template.Shared\Template.Shared.csproj" />
   </ItemGroup>
 

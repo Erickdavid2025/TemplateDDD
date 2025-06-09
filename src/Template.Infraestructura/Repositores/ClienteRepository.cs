@@ -1,5 +1,6 @@
-﻿using Template.Domain.Entities;
-using Template.Domain.Interfaces;
+﻿using Microsoft.EntityFrameworkCore;
+using Template.Application.Interfaces.Repository;
+using Template.Application.Queries;
 using Template.Infraestructure.ORM_Context;
 using Template.Shared.DTOs;
 using Cuenta = Template.Shared.DTOs.Cuenta;
@@ -12,12 +13,12 @@ namespace Template.Infraestructure.Repositores
         private readonly MyDbContext _myDbContext;
         public ClienteRepository(MyDbContext myDbContext)
         {
-            myDbContext = _myDbContext;
+           _myDbContext = myDbContext;
         }
         public async Task<ResumenCliente> GetResumenCliente(int id)
         {
 
-            var todoJunto = (from n in _myDbContext.Clientes
+            var todoJunto = await (from n in _myDbContext.Clientes
                              where n.Id == id
                              select new {
                              nombre = n.Nombre,
@@ -40,7 +41,7 @@ namespace Template.Infraestructure.Repositores
                                                        }).ToList()
                                        }).ToList()
                              
-                             }).FirstOrDefault();
+                             }).FirstOrDefaultAsync();
 
 
 
@@ -72,5 +73,40 @@ namespace Template.Infraestructure.Repositores
 
             return resumen ;
         }
+
+        public async Task<ResumenClienteResult> GetResumenClienteMapper(int id)
+        {
+            var todoJunto = await (from n in _myDbContext.Clientes
+                                  where n.Id == id
+                                  select new ResumenClienteResult
+                                  {
+                                      Nombre = n.Nombre,
+                                      Cuentas = (from a in _myDbContext.Cuentas
+                                                 where n.Id == a.ClienteId
+                                                 select new CuentaResult
+                                                 {
+                                                     Cuenta = a.Id,
+                                                     Saldo = a.Saldo,
+                                                     Tarjetas = (from tar in _myDbContext.Tarjetas
+                                                                 join mov in _myDbContext.Movimientos on tar.Id equals mov.TarjetaId
+                                                                 where tar.CuentaId == a.Id
+                                                                 group mov by tar.Numero into grupo
+                                                                 select new TarjetaResult
+                                                                 {
+                                                                     NumeroTarjeta = grupo.Key,
+                                                                     Gastos = grupo.Sum(m => m.Monto < 0 ? m.Monto : 0),
+                                                                     Ingresos = grupo.Sum(m => m.Monto > 0 ? m.Monto : 0),
+                                                                     CantidadMovimientos = grupo.Count()
+                                                                 }).ToList()
+                                                 }).ToList()
+
+                                  }).FirstOrDefaultAsync();
+
+
+            return todoJunto;
+
+
+        }
+
     }
 }

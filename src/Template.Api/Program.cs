@@ -1,9 +1,11 @@
+using AutoMapper;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Diagnostics.HealthChecks;
 using Template.Application.Interfaces;
+using Template.Application.Interfaces.Repository;
 using Template.Application.Services;
-using Template.Domain.Interfaces;
+using Template.Application.Services.Mapper;
 using Template.Infraestructure.ORM_Context;
 using Template.Infraestructure.Repositores;
 
@@ -24,6 +26,14 @@ builder.Services.AddScoped<IMyDbContext>(provider => provider.GetRequiredService
 
 //Conexion a BD
 builder.Services.AddDbContext<MyDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DbConnection")));
+
+var config = new MapperConfiguration(cfg =>
+{
+    cfg.AddMaps(AppDomain.CurrentDomain.GetAssemblies());
+});
+
+IMapper mapper = config.CreateMapper();
+builder.Services.AddSingleton(mapper); // Registro en el contenedor
 
 //Agregamos esto para hacer un healtcheck a la conexion a la bd 
 builder.Services.AddHealthChecks().AddCheck("Sql", () =>
