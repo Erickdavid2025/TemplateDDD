@@ -150,6 +150,34 @@ namespace Template.Infraestructure.Repositores
             data.MovimientosRecientes = datoMovimientos;
 
             return data;
+
+            //var resultado = await (
+            //from cuenta in _myDbContext.Cuentas
+            //where cuenta.ClienteId == id && cuenta.EsCuentaPrincipal
+            //select new QueryResumenClienteCuentaPrincipal
+            //{
+            //cuentaId = cuenta.Id,
+            //saldo = cuenta.Saldo,
+            //TotalIngresos = cuenta.Tarjetas
+            //                .SelectMany(t => t.Movimiento)
+            //                .Where(m => m.Monto > 0)
+            //                .Sum(m => m.Monto),
+            //TotalEgresos = cuenta.Tarjetas
+            //                .SelectMany(t => t.Movimiento)
+            //                .Where(m => m.Monto < 0)
+            //                .Sum(m => m.Monto),
+            //MovimientosRecientes = cuenta.Tarjetas
+            //                .SelectMany(t => t.Movimiento)
+            //                .OrderByDescending(m => m.Fecha)
+            //                .Take(5)
+            //                .Select(m => new QueryMovimientoResult
+            //                {
+            //                    Monto = m.Monto,
+            //                    Fecha = m.Fecha,
+            //                    Descripcion = m.Descripcion
+            //                }).ToList()
+            //}
+            //).FirstOrDefaultAsync();
         }
 
     }
