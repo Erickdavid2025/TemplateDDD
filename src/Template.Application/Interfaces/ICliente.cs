@@ -11,5 +11,6 @@ namespace Template.Application.Interfaces
     {
         Task<ResumenCliente> GetResumenCliente(int id);
         Task<ResumenCliente> GetResumenClienteMapper(int id);
+        Task<ResumenClienteCuentaPrincipal> ResumenClienteCuentaPrincipal(int id);
     }
 }

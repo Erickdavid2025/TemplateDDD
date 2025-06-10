@@ -18,6 +18,10 @@ namespace Template.Application.Services.Mapper
 
             CreateMap<CuentaResult, Cuenta>();
             CreateMap<TarjetaResult, Tarjeta>();
+
+            CreateMap<QueryResumenClienteCuentaPrincipal, ResumenClienteCuentaPrincipal>();
+
+            CreateMap<QueryMovimientoResult, MovimientoResult>();
         }
     }
 }

@@ -47,5 +47,21 @@ namespace Template.Application.Services
                 throw x;
             }
         }
+
+        public async Task<ResumenClienteCuentaPrincipal> ResumenClienteCuentaPrincipal(int id)
+        {
+            try
+            {
+                var resultadoQuery = await _clienteRepository.GetResumenClienteCuentaPrincipal(id);
+                return _mapper.Map<ResumenClienteCuentaPrincipal>(resultadoQuery);
+
+            }
+            catch (Exception x)
+            {
+
+                throw x;
+            }
+        }
+
     }
 }

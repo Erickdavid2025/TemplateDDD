@@ -1,13 +1,14 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 using Template.Application.Interfaces;
+using Template.Application.Queries;
 using Template.Shared.DTOs;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace Template.Api.Controllers
 {
-    [Route("api/Desafio3/[controller]")]
+    [Route("api/Desafio4/[controller]")]
     [ApiController]
     public class ClienteController : ControllerBase
     {
@@ -20,7 +21,7 @@ namespace Template.Api.Controllers
 
         // GET api/<ValuesController>/5
         [HttpGet("{id}/resumen-financiero")]
-        [ProducesResponseType(StatusCodes.Status200OK,Type=typeof(ResumenCliente))]
+        [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(ResumenClienteCuentaPrincipal))]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         ///<summary>Obtenemos el resumen detallado del cliente</summary>
         ///<responsy code="200">Retorna todo el detalle</responsy>
@@ -38,6 +39,14 @@ namespace Template.Api.Controllers
         public async Task<ResumenCliente> GetMapper(int id)
         {
             return await _cliente.GetResumenClienteMapper(id);
+        }
+
+        [HttpGet("resumen-cuenta-principal/{id}")]
+        [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(ResumenClienteCuentaPrincipal))]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        public async Task<ResumenClienteCuentaPrincipal> ResumenClienteCuentaPrincipal(int id)
+        {
+            return await _cliente.ResumenClienteCuentaPrincipal(id);
         }
 
         // POST api/<ValuesController>

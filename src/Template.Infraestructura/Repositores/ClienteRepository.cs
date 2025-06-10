@@ -108,5 +108,49 @@ namespace Template.Infraestructure.Repositores
 
         }
 
+        public async Task<QueryResumenClienteCuentaPrincipal> GetResumenClienteCuentaPrincipal(int id)
+        {
+            var datoscuenta = await (from cuenta in _myDbContext.Cuentas
+                                     where cuenta.ClienteId == id && cuenta.EsCuentaPrincipal == true
+                                     select new
+                                     {
+                                         cuenta = cuenta.Id,
+                                         saldo = cuenta.Saldo
+                                     }).FirstOrDefaultAsync();
+
+            var datosIngresosEgresos = await (from cuenta in _myDbContext.Cuentas
+                                              join tar in _myDbContext.Tarjetas on cuenta.Id equals tar.CuentaId
+                                              join mov in _myDbContext.Movimientos on tar.Id equals mov.TarjetaId
+                                              where cuenta.ClienteId == id && cuenta.EsCuentaPrincipal == true
+                                              group mov by cuenta.Id into ing
+                                              select new
+                                              {
+                                                  TotalIngresos = ing.Sum(m => m.Monto > 0 ? m.Monto : 0),
+                                                  TotalEgresos = ing.Sum(m => m.Monto < 0 ? m.Monto : 0),
+
+                                              }).FirstOrDefaultAsync();
+
+            var datoMovimientos = await (from cuenta in _myDbContext.Cuentas
+                                         join tar in _myDbContext.Tarjetas on cuenta.Id equals tar.CuentaId
+                                         join mov in _myDbContext.Movimientos on tar.Id equals mov.TarjetaId
+                                         where cuenta.ClienteId == id && cuenta.EsCuentaPrincipal == true
+                                         orderby mov.Fecha descending
+                                         select new QueryMovimientoResult
+                                         {
+                                             Monto = mov.Monto,
+                                             Fecha = mov.Fecha,
+                                             Descripcion = mov.Descripcion
+                                         }).Take(5).ToListAsync();
+
+            QueryResumenClienteCuentaPrincipal data = new QueryResumenClienteCuentaPrincipal();
+            data.cuentaId = datoscuenta.cuenta;
+            data.saldo = datoscuenta.saldo;
+            data.TotalIngresos = datosIngresosEgresos.TotalIngresos;
+            data.TotalEgresos = datosIngresosEgresos.TotalEgresos;
+            data.MovimientosRecientes = datoMovimientos;
+
+            return data;
+        }
+
     }
 }

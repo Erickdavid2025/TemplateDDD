@@ -13,5 +13,7 @@ namespace Template.Application.Interfaces.Repository
        Task<ResumenCliente> GetResumenCliente(int id);
 
        Task<ResumenClienteResult> GetResumenClienteMapper(int id);
+
+       Task<QueryResumenClienteCuentaPrincipal> GetResumenClienteCuentaPrincipal(int id);
     }
 }
