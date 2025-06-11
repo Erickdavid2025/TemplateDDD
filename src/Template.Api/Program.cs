@@ -20,7 +20,13 @@ builder.Services.AddSwaggerGen();
 
 //Agregamos las Inyecciones de dependencias
 builder.Services.AddScoped<IClienteRepository, ClienteRepository>();
-builder.Services.AddScoped<ICliente, Cliente>();
+builder.Services.AddScoped<ICliente, ClienteServices>();
+
+builder.Services.AddScoped<ITarjetaRepository,TarjetaRepository>();
+builder.Services.AddScoped<ITarjeta, TarjetaServices>();
+
+
+builder.Services.AddScoped<ICuentaRepository, CuentaRepository>();
 
 builder.Services.AddScoped<IMyDbContext>(provider => provider.GetRequiredService<MyDbContext>());
 

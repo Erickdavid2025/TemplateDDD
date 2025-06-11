@@ -14,13 +14,13 @@ namespace Template.Application.Services.Mapper
         public ClienteProfile()
         {
             CreateMap<ResumenClienteResult, ResumenCliente>()
-           .ForMember(dest => dest.Cliente, opt => opt.MapFrom(src => src.Nombre));
-
+                .ForMember(dest => dest.Cliente, opt => opt.MapFrom(src => src.Nombre));
             CreateMap<CuentaResult, Cuenta>();
             CreateMap<TarjetaResult, Tarjeta>();
 
-            CreateMap<QueryResumenClienteCuentaPrincipal, ResumenClienteCuentaPrincipal>();
 
+            ////////DESAFIO 4
+            CreateMap<QueryResumenClienteCuentaPrincipal, ResumenClienteCuentaPrincipal>();
             CreateMap<QueryMovimientoResult, MovimientoResult>();
         }
     }

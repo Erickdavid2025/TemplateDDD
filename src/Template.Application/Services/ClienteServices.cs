@@ -13,12 +13,12 @@ using Template.Shared.DTOs;
 namespace Template.Application.Services
 
 {
-    public class Cliente : ICliente
+    public class ClienteServices : ICliente
     {
         private readonly IClienteRepository _clienteRepository;
         private readonly IMapper _mapper;
 
-        public Cliente(IClienteRepository clienteRepository, IMapper mapper)
+        public ClienteServices(IClienteRepository clienteRepository, IMapper mapper)
         {
             _clienteRepository = clienteRepository;
             _mapper = mapper;
