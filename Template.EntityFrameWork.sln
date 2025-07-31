@@ -29,6 +29,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template.Shared", "src\Temp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template.Test", "test\Template.Test\Template.Test.csproj", "{A634A662-E46C-A321-A88A-23F3098A76D0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docker", "docker", "{4AEE57D7-8554-4AAC-B397-662CC2934263}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		docker\Dockerfile = docker\Dockerfile
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
